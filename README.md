@@ -1,6 +1,6 @@
 # React Essentials
 
-このプロジェクトは、Reactの基本概念を学ぶためのシンプルなアプリケーションです。以下の内容が含まれています。
+このプロジェクトは、Reactの基本概念を学ぶためのシンプルなアプリケーションです。以下の内容が含まれています。このプロジェクトは[React - The Complete Guide 2024 (incl. Next.js, Redux)](https://www.udemy.com/course/react-the-complete-guide-incl-redux/)のセクション3に基づいています。
 
 ## このひな形プロジェクトを通して学べること
 
