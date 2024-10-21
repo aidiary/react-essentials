@@ -1,19 +1,16 @@
-import { MouseEventHandler } from "react";
-
-interface TabButonProps {
+interface TabButonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   children: string;
-  onSelect: MouseEventHandler<HTMLButtonElement>;
   isSelected: boolean;
 }
 
 export default function TabButton({
   children,
-  onSelect,
   isSelected,
+  ...props
 }: TabButonProps) {
   return (
     <li>
-      <button className={isSelected ? "active" : undefined} onClick={onSelect}>
+      <button className={isSelected ? "active" : undefined} {...props}>
         {children}
       </button>
     </li>
